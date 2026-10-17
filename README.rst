@@ -1,3 +1,13 @@
+.. rubric:: About this fork
+
+This is a development fork of `PennLINC/xcp_d <https://github.com/PennLINC/xcp_d>`__, the postprocessing pipeline for resting-state and pseudo-resting-state fMRI connectivity analysis. It consumes supported preprocessing outputs to produce denoised BOLD images, parcellated time series, connectivity matrices, and quality-assessment reports. The upstream README explains which analyses and input releases fit its scope.
+
+The fork's `upstream PR #1638 <https://github.com/PennLINC/xcp_d/pull/1638>`__ proposes bounded buffering for example downloads. It was open on 17 October 2026 and remains on the linked feature branch.
+
+Start with the `official documentation <https://xcp-d.readthedocs.io/>`__ for installation, input compatibility, and workflow options. `Compare the default branch with upstream <https://github.com/jdotc1/xcp_d/compare/PennLINC:main...jdotc1:main>`__. The original applicability guidance, HCP compatibility notice, and citation requirements remain below.
+
+.. rubric:: Upstream README
+
 #########################################################
 **XCP-D** : A Robust Postprocessing Pipeline of fMRI data
 #########################################################
